@@ -7,7 +7,7 @@ export default defineConfig({
   base:"/",
   publicDir:"src",
   build:{
-    outDir:"build",
+    outDir:"build/src",
     assetsDir:"src"
   },
   plugins: [react()],
