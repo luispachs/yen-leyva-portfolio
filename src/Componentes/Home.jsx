@@ -23,7 +23,7 @@ function Home(){
                     <p>Si quieres observar mi trabajo, puedes visitar este espacio</p>
                 </div>
             </div>
-            <div className="col-3 actions cristal" onClick={(e)=>{navigate("/contactme")}}>
+            <div className="col-3 actions cristal" onClick={(e)=>{window.location.href="https://wa.me/573193822282"}}>
                 <div><h3>¿Quieres contactarme?</h3></div>
                 <div className="col-12 texto">
                     <p>Si deseas saber como contactarme y conocer mis redes sociales te invito a ingresar aqui</p>

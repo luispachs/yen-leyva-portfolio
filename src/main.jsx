@@ -8,7 +8,7 @@ import Contactme from './Componentes/ContactMe'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <BrowserRouter basename={proccess.env.PUBLIC_URL}>
+  <BrowserRouter >
     <Routes>
       <Route path='/' element={<Home/>}></Route>
       <Route path="/aboutme" element={<AboutMe/>}></Route>

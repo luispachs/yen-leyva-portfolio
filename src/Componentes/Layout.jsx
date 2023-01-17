@@ -1,5 +1,6 @@
 import {Link, useNavigate} from "react-router-dom";
 import image from "../assets/Images/layered-waves-haikei.svg"
+import logo from "../assets/Images/ImageLogo_con_texto.png"
 
 
 
@@ -33,7 +34,8 @@ function Layout(props){
             <footer className="col-12">
                 <div className="col-12 row">
                     
-                    <div className="col-12 actions pie">
+                    <div className="col-10 actions pie">
+                    <div className="col-2 logo"><img src={logo} alt="Logo" height={200} width={200} /></div>
                     <small> <h2>Yen leyva -  Nails art</h2>
                         <p><em>Pasi&oacute;n por el arte y las uñas</em></p>
                         <p>
@@ -41,8 +43,8 @@ function Layout(props){
                         </p>
                         <p className="small">Desarrollado por <a href="https://www.linkedin.com/in/luis-pacheco-6697a01a6/" target="_blank">Luis Pacheco .S</a></p>
                     </small>
-                        
                     </div>
+
                  
 
                 </div>
