@@ -45,7 +45,7 @@ function MyWorks(){
 
     return (
         <Layout>
-            <div className="gridContainer">
+            <div className="gridContainer" >
                 {image}
             </div>
         </Layout>
